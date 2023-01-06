@@ -1,4 +1,4 @@
-"<?$APPLICATION->IncludeComponent(
+< ? $APPLICATION->IncludeComponent(
 	"bitrix:main.feedback",
 	"fb",
 	Array(
@@ -10,5 +10,5 @@
 		"REQUIRED_FIELDS" => array("AUTHOR_NAME"=>"NAME","AUTHOR_PHONE"=>"PHONE","AUTHOR_MESSAGE"=>"MESSAGE"),
 		"USE_CAPTCHA" => "N"
 	)
-);?>
-"
+); ? >
+
